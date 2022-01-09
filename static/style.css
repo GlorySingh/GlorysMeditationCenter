@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    background-color: #fac408;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    list-style: none;
+}
+
+.item {
+    padding: 0 50px;
+    font-weight: bold;
+}
+
+.item a {
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: white;
+}
+
+.tagline {    
+    margin: 125px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg::before {
+    content: "";
+    background:url(/static/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#bg h1 {
+    font-size: 5rem;
+    color: #fac408;
+    text-shadow: rgb(59, 59, 59) 2px 3px 5px;
+}
+
+#bg p {
+    font-size: 2.5rem;
+}
+
+.our-classes {
+    background-color: #fac408;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.our-classes h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.our-classes-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.sponsors {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.sponsors h2 {
+    color: #fac408;
+    font-size: 2rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 179px;
+}
+
+.img-box img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book button {
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: #fac408;
+    border: 1px solid black;
+    border-radius: 47px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    padding: 10px 20px;
+}
+
+.book button:hover {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+footer span {
+    color: #fac408;
+}

@@ -1,0 +1,53 @@
+doctype html
+html 
+    head 
+    title Glory's Meditation Center 
+    style 
+        include ../static/style.css 
+    body 
+        nav 
+            div.logo 
+                img(src="/static/logo-4.jpg")
+            ul 
+                li.item #[a(href="/") Home]
+                li.item #[a(href="/") About]
+                li.item #[a(href="/") Services]
+        //- h1 Welcome to Glory's world.
+        section#bg 
+            div.tagline
+                h1 Glory's Meditation Center 
+                p experience your inner bliss.
+            
+        section.our-classes 
+            h2 Our Classes 
+            div.our-classes-div
+                .card
+                    img(src="./static/teacher.jpg", alt="")
+                    p certified teachers
+                .card
+                    img(src="./static/flexT.jpg", alt="") 
+                    p flexible timings
+                .card
+                    img(src="./static/customers.jpg", alt="") 
+                    p 1000+ happy customers
+
+
+        section.sponsors 
+            h2 Our Sponsors
+            .box
+                .img-box 
+                    img(src="/static/meta.jpg", alt="meta")
+                .img-box 
+                    img(src="/static/tesla.jpg", alt="tesla")
+                .img-box 
+                    img(src="/static/apple.jpg", alt="apple")
+
+        footer 
+            div.book
+                a(href="/contact") 
+                    button Book a free class 
+            | Copyright © 2022 
+            span GlorysMeditationCenter.com 
+            | All Rights Reserved.
+        script 
+            include ../static/index.js
